@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nurul.pertemuan8">
+    package="com.example.crudapp">
 
     <application
         android:allowBackup="true"
@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UserAdapter"></activity>
+        <activity android:name=".TasAdapter"></activity>
+        <activity android:name=".EditUserActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".EditTasActivity" />
+        <activity android:name=".TasActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
